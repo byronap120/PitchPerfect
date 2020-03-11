@@ -16,23 +16,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nuB-Fd-Yyp">
-                                <rect key="frame" x="82.5" y="206.5" width="155" height="155"/>
+                                <rect key="frame" x="82.5" y="132" width="155" height="155"/>
                                 <state key="normal" image="RecordButton"/>
                                 <connections>
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8kc-JN-AfC"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDj-XV-RCb">
-                                <rect key="frame" x="109" y="369" width="102" height="21"/>
+                                <rect key="frame" x="109" y="295.5" width="102" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brq-yY-sMG">
-                                <rect key="frame" x="128" y="398" width="64" height="64"/>
+                                <rect key="frame" x="128" y="324" width="64" height="64"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="CaS-ol-QTK"/>
-                                    <constraint firstAttribute="width" constant="64" id="Ea8-9t-7Hz"/>
+                                    <constraint firstAttribute="width" constant="64" id="CUg-wY-ofi"/>
+                                    <constraint firstAttribute="height" constant="64" id="Tl8-xD-O1S"/>
                                 </constraints>
                                 <state key="normal" image="Stop"/>
                                 <connections>
@@ -42,12 +42,12 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="brq-yY-sMG" firstAttribute="centerX" secondItem="CDj-XV-RCb" secondAttribute="centerX" id="EIy-7O-He6"/>
-                            <constraint firstItem="CDj-XV-RCb" firstAttribute="centerX" secondItem="nuB-Fd-Yyp" secondAttribute="centerX" id="Eop-RY-ukt"/>
-                            <constraint firstItem="brq-yY-sMG" firstAttribute="top" secondItem="CDj-XV-RCb" secondAttribute="bottom" constant="8" id="Rqg-8q-e2d"/>
-                            <constraint firstItem="nuB-Fd-Yyp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="b9k-O6-lee"/>
-                            <constraint firstItem="nuB-Fd-Yyp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bgd-hU-203"/>
-                            <constraint firstItem="CDj-XV-RCb" firstAttribute="top" secondItem="nuB-Fd-Yyp" secondAttribute="bottom" constant="7.5" id="lHW-Px-aKx"/>
+                            <constraint firstItem="nuB-Fd-Yyp" firstAttribute="centerX" secondItem="CDj-XV-RCb" secondAttribute="centerX" id="1sn-2f-01c"/>
+                            <constraint firstItem="CDj-XV-RCb" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="B2e-0N-8cA"/>
+                            <constraint firstItem="CDj-XV-RCb" firstAttribute="top" secondItem="nuB-Fd-Yyp" secondAttribute="bottom" constant="8.5" id="Cvu-sA-20Q"/>
+                            <constraint firstItem="brq-yY-sMG" firstAttribute="top" secondItem="CDj-XV-RCb" secondAttribute="bottom" constant="7.5" id="IOk-Lb-kUw"/>
+                            <constraint firstItem="brq-yY-sMG" firstAttribute="centerX" secondItem="CDj-XV-RCb" secondAttribute="centerX" id="p9e-tU-0a1"/>
+                            <constraint firstItem="CDj-XV-RCb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pXF-8I-U35"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
