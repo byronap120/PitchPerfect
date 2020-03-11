@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PitchPerfect
 //
-//  Created by Mercury Admin on 3/6/20.
+//  Created by Byron on 3/6/20.
 //  Copyright © 2020 Byron. All rights reserved.
 //
 
